@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Chrome">
+
+	<parameter name="browser" value="chrome"/>
+	<suite-files>
+		<suite-file path="common.xml"></suite-file>
+	</suite-files>
+	
+	<groups>
+		<run>
+			<exclude name="runOnChrome"></exclude>
+			<include name="doNotRunOnChrome"></include>
+		</run>
+	</groups>
+	
+</suite>
+
