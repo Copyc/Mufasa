@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="General test suite for all browsers">
+	<suite-files>
+		<!-- Chrome suite -->
+		<suite-file path="chrome.xml" />
+		<!-- Firefox suite -->
+		<suite-file path="firefox.xml" />
+	</suite-files>
+</suite>

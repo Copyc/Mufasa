@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Common tests" duration-ms="83274" started-at="2016-03-09T11:25:38Z" finished-at="2016-03-09T11:27:01Z">
+    <groups>
+    </groups>
+    <test name="testSuite" duration-ms="83274" started-at="2016-03-09T11:25:38Z" finished-at="2016-03-09T11:27:01Z">
+      <class name="testSuite.GmailTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="setup" is-config="true" duration-ms="7241" started-at="2016-03-09T13:25:38Z" finished-at="2016-03-09T13:25:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testSuite.GmailTests.failureLoginPass(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="failureLoginPass(java.util.Map)[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="failureLoginPass" duration-ms="5167" started-at="2016-03-09T13:25:45Z" data-provider="CsvImporter" finished-at="2016-03-09T13:25:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=, login=SeleniumWebDriver.Copyc, expectedMessage=Please enter your password.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureLoginPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="tearDown" is-config="true" duration-ms="549" started-at="2016-03-09T13:25:50Z" finished-at="2016-03-09T13:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="setup" is-config="true" duration-ms="7713" started-at="2016-03-09T13:25:51Z" finished-at="2016-03-09T13:25:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testSuite.GmailTests.failureLoginPass(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="failureLoginPass(java.util.Map)[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="failureLoginPass" duration-ms="5531" started-at="2016-03-09T13:25:59Z" data-provider="CsvImporter" finished-at="2016-03-09T13:26:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=abcde, login=SeleniumWebDriver.Copyc, expectedMessage=The email and password you entered don't match.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureLoginPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="tearDown" is-config="true" duration-ms="426" started-at="2016-03-09T13:26:04Z" finished-at="2016-03-09T13:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="setup" is-config="true" duration-ms="6704" started-at="2016-03-09T13:26:05Z" finished-at="2016-03-09T13:26:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testSuite.GmailTests.successLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="successLogin()[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="successLogin" duration-ms="12622" started-at="2016-03-09T13:26:11Z" finished-at="2016-03-09T13:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="tearDown" is-config="true" duration-ms="469" started-at="2016-03-09T13:26:24Z" finished-at="2016-03-09T13:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="setup" is-config="true" duration-ms="7109" started-at="2016-03-09T13:26:24Z" finished-at="2016-03-09T13:26:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testSuite.GmailTests.failureSearchMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="failureSearchMail()[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="failureSearchMail" duration-ms="10955" started-at="2016-03-09T13:26:32Z" finished-at="2016-03-09T13:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureSearchMail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="tearDown" is-config="true" duration-ms="730" started-at="2016-03-09T13:26:43Z" finished-at="2016-03-09T13:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="setup" is-config="true" duration-ms="6269" started-at="2016-03-09T13:26:43Z" finished-at="2016-03-09T13:26:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testSuite.GmailTests.successSearchMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="successSearchMail()[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="successSearchMail" duration-ms="11194" started-at="2016-03-09T13:26:50Z" finished-at="2016-03-09T13:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successSearchMail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuite.GmailTests@47f37ef1]" name="tearDown" is-config="true" duration-ms="568" started-at="2016-03-09T13:27:01Z" finished-at="2016-03-09T13:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuite.GmailTests -->
+    </test> <!-- testSuite -->
+  </suite> <!-- Common tests -->
+</testng-results>

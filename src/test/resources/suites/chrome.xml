@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Chrome">
+<suite name="SuiteChrome">
 
-	<parameter name="browser" value="chrome"/>
+	<parameter name="browserName" value="chrome"/>
+	
 	<suite-files>
 		<suite-file path="common.xml"></suite-file>
 	</suite-files>
