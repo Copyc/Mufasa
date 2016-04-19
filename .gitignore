@@ -9,7 +9,7 @@
 
 # Maven
 target/
-target-output/
+test-output/
 
 # Other
 hooks/
