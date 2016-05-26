@@ -1,3 +1,3 @@
-login,pass,expectedMessage
+login,password,expectedMessage
 SeleniumWebDriver.Copyc,,Please enter your password.
 SeleniumWebDriver.Copyc,abcde,The email and password you entered don't match.

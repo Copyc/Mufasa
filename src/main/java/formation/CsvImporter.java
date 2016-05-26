@@ -1,4 +1,4 @@
-package core;
+package formation;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -43,9 +43,7 @@ public class CsvImporter {
 			reader.close();
 
 		} catch (FileNotFoundException e) {
-//			throw new RuntimeException(".csv file was not opened");
-			String ex = e.getLocalizedMessage();
-			String exe = e.getMessage();
+			throw new RuntimeException(".csv file cannot be found");
 		} catch (IOException e) {
 			throw new RuntimeException(".csv file can't be read");
 		}

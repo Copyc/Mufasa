@@ -1,9 +1,10 @@
-package webPages;
+package pages;
 
 import org.openqa.selenium.WebDriver;
 
+import ru.yandex.qatools.allure.annotations.Step;
 import core.BasePage;
-import core.Environment;
+import formation.Environment;
 
 public class PageTemplate extends BasePage {
 
@@ -15,6 +16,7 @@ public class PageTemplate extends BasePage {
 	}
 
 	@Override
+	@Step("Loaging template page")
 	public PageTemplate load() {
 		driver.get(URL);
 		return this;
@@ -24,9 +26,10 @@ public class PageTemplate extends BasePage {
 		// TODO Auto-generated method stub
 		return false;
 	}
-	@Override
-	public String getExpectedUrl() {
-		return URL;
+	
+	@Step(value = "{method}{0}")
+	public PageTemplate method() {
+		return this;
 	}
 
 }

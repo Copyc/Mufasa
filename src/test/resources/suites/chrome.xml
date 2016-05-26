@@ -1,19 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="SuiteChrome">
-
 	<parameter name="browserName" value="chrome"/>
 	
 	<suite-files>
 		<suite-file path="common.xml"></suite-file>
+		<suite-file path="chromeGroups.xml"></suite-file>
 	</suite-files>
-	
-	<groups>
-		<run>
-			<exclude name="runOnChrome"></exclude>
-			<include name="doNotRunOnChrome"></include>
-		</run>
-	</groups>
-	
 </suite>
-

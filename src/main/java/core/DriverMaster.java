@@ -47,6 +47,15 @@ public class DriverMaster {
 
 		return driver;
 	}
+/**
+ *  Gets the initialized instance of WebDriver 
+ * @return driver instance
+ */
+	public static WebDriver getExistedInstance() {
+		if (driver == null) 
+			throw new RuntimeException("Driver is not initialized");
+		return driver;
+	}
 
 	/**
 	 * Kill driver instance.

@@ -1,19 +1,10 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="SuiteFirefox">
+	<parameter name="browserName" value="firefox" />
 
-	<parameter name="browserName" value="firefox"/>
-	
 	<suite-files>
 		<suite-file path="common.xml"></suite-file>
+		<suite-file path="firefoxGroups.xml"></suite-file>
 	</suite-files>
-	
-	<groups>
-		<run>
-			<exclude name="runOnFirefox"></exclude>
-			<include name="doNotRunOnFirefox"></include>
-		</run>
-	</groups>
-	
 </suite>
-

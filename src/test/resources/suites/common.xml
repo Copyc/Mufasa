@@ -1,10 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Common tests">
-
 	<test name="testSuite">
 		<packages> <package name="testSuite"></package> </packages>    
-	</test>
-	
+	</test>	
 </suite>
 
