@@ -15,7 +15,7 @@
 		
 		<jodatime.version>2.9.3</jodatime.version>
 		<guava.version>19.0</guava.version>
-		<jackson.version>2.7.3</jackson.version>
+		<jackson.version>2.9.7</jackson.version>
 		<opencsv.version>3.7</opencsv.version>
 		
 		<ashot.version>1.5.2</ashot.version>
